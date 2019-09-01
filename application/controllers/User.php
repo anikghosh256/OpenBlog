@@ -14,7 +14,7 @@ class User extends CI_Controller {
       if($this->session->userdata('logged_in')){
          redirect('Home');
        }
-       $data['pageTitle'] = 'Create a account';
+       $data['pageTitle'] = 'Create an account';
        $data['categories']= $this->Admin_model->getCategories();
        $data['socialIcons']= $this->Page_model->getsocialIcons();
        //page meta
