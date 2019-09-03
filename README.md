@@ -34,7 +34,7 @@ You can easily install it. Ethical to step down to easily install this applicati
       
 * like this image
 
-![Alt text](images/temp/config.jpg?raw=true "config.php")
+![img](images/temp/config.jpg?raw=true "config.php")
 
 open "config.php" and  put a link of your website in the red underlined area and save the file.
       
@@ -46,7 +46,7 @@ open "config.php" and  put a link of your website in the red underlined area and
       
       
 * like this image
-![Alt text](images/temp/database.jpg?raw=true "database.php ")
+![img](images/temp/database.jpg?raw=true "database.php ")
 
 open "database.php" and save the database data you create within the database.
 
