@@ -14,7 +14,7 @@
      
      <li><a href="<?php echo base_url('member/edit/anikghosh356'); ?>" class="btn-floating yellow darken-1"><i class="fas fa-user-edit material-icons"></i></a></li>
      <li><a href="<?php echo base_url('member/profile'); ?>" class="btn-floating green"><i class="material-icons">person</i></a></li>
-     <li><a href="<?php echo base_url('admin/dashbord'); ?>" class="btn-floating blue"><i class="material-icons">show_chart</i></a></li>
+     <li><a href="<?php echo base_url('admin/dashboard'); ?>" class="btn-floating blue"><i class="material-icons">show_chart</i></a></li>
      <li><a href="<?php echo base_url('admin/create'); ?>" class="btn-floating red"><i class="material-icons">create</i></a></li>
      <li><a  data-target="slide-out" class="sidenav-trigger btn btn-floating red ">
      <i class="large material-icons">menu</i>

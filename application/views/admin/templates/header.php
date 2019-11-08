@@ -38,7 +38,7 @@
 
         <div class="nav-wrapper mContainer">
 
-          <a href="<?php echo base_url('admin'); ?>" class="brand-logo left">Admin Dashbord</a>
+          <a href="<?php echo base_url('admin'); ?>" class="brand-logo left">Admin DashBoard</a>
 
           <ul id="nav-mobile" class="right hide-on-med-and-down">
 
@@ -86,7 +86,7 @@
 
           <li class="slidOp">
 
-            <a href="<?php echo base_url('admin'); ?>">Dashbord</a>
+            <a href="<?php echo base_url('admin'); ?>">DashBoard</a>
 
           </li>
 

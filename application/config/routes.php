@@ -20,7 +20,7 @@ $route['(?i)login'] = 'user/login';
 $route['(?i)register'] = 'user/register';
 $route['(?i)logout'] = 'user/logout';
 $route['(?i)member'] = 'member/profile';
-$route['(?i)admin'] = 'admin/dashbord';
+$route['(?i)admin'] = 'admin/dashboard';
 
 $route['(:any)'] = 'pages/view/$1';
 

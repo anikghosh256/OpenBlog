@@ -43,7 +43,7 @@
 				       	</li>
 				       	<?php if ($this->session->userdata('user_role')== 'admin'): ?>
 				       		<li class="collection-item">
-				       		<div>Admin DashBord <a href="<?php echo base_url('admin'); ?>" class="secondary-content">DashBord</a></div>
+				       		<div>Admin dashboard <a href="<?php echo base_url('admin'); ?>" class="secondary-content">Dashboard</a></div>
 				       	</li>
 				       	<?php endif ?>
 				       	<li class="collection-item">

@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
 
-    public function dashbord(){
+    public function dashboard(){
 
         if($this->session->userdata('logged_in')){
         	if ($this->session->userdata('user_role') != 'admin') {
@@ -20,7 +20,7 @@ class Admin extends CI_Controller {
         	redirect('Login');
         }
         
-        $data['pageTitle']= 'Admin DashBord';
+        $data['pageTitle']= 'Admin Dashboard';
         $data['lUser']= $this->Member_model->getUserDetils($this->session->userdata('username'));
 
         $data['views']= $this->getViews(30);
@@ -31,7 +31,7 @@ class Admin extends CI_Controller {
         $data['getPostComCount']= $this->getPostComCount();
 
         $this->load->view('admin/templates/header',$data);
-		$this->load->view('admin/dashbord', $data);
+		$this->load->view('admin/dashboard', $data);
 		$this->load->view('admin/templates/footer',$data);
     }
 
@@ -156,7 +156,7 @@ class Admin extends CI_Controller {
 				$this->Admin_model->deletePost($slug);
 				// Set message
 				$this->session->set_flashdata('post_deleted', 'Your post has been deleted');
-				redirect('admin/dashbord');
+				redirect('admin/dashboard');
 
 				}
 		
@@ -172,7 +172,7 @@ class Admin extends CI_Controller {
 	        }
     	if ($slug=='') {
     		$this->session->set_flashdata('wrong', 'something wrong..!!');
-				redirect('admin/dashbord');
+				redirect('admin/dashboard');
     	}
 
 		$this->form_validation->set_rules('postTitle', 'Title', 'required|trim');
@@ -181,12 +181,12 @@ class Admin extends CI_Controller {
 		$this->form_validation->set_rules('tags', 'Tags', 'required|trim');
 		if($this->form_validation->run() === FALSE){
 			$this->session->set_flashdata('wrong', 'somthing wrong..!!');
-				redirect('admin/dashbord');
+				redirect('admin/dashboard');
 		}else{
 			$this->Admin_model->updatePost($slug);
 			// Set message
 			$this->session->set_flashdata('post_updated', 'Your post has been updated');
-			redirect('admin/dashbord');
+			redirect('admin/dashboard');
 		}
 
 

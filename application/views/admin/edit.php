@@ -158,7 +158,7 @@
 
                   <input type="submit" class="btn green" name="" value="Update">
 
-                  <a class="btn red" href="<?php echo base_url('admin/dashbord'); ?>">Cancel</a>
+                  <a class="btn red" href="<?php echo base_url('admin/dashboard'); ?>">Cancel</a>
 
                 </div>
 
