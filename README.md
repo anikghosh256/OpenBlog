@@ -5,7 +5,7 @@ An Open Source Blog Application.
 What is OpenBlog
 ###################
 
-OpenBlog is an Blog Application.It's for those who love to write blogs and want a php-based website.
+OpenBlog is a Blog Application.It's for those who love to write blogs and want a php-based website.
 
 
 # Server Requirements
