@@ -38,7 +38,7 @@
     box-shadow: none;
     outline: none;
     background-color: transparent;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     padding: 0;
     width: fit-content;
     flex-grow: 1;
@@ -102,7 +102,7 @@
 .materialize-tags .tt-menu .tt-cursor {
     background: deepskyblue;
     color: #000;
-    font-weight:inherit;;
+    font-weight:inherit;
 }
 
 .materialize-tags .tt-menu .tt-cursor .tt-highlight{
